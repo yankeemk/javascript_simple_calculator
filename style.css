@@ -1,0 +1,94 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+div.casioBorder{
+    border-radius: 7px;
+    background: #0898d6;
+    margin: 5em auto;
+    width: 30em;
+    height: 44em;
+    
+    
+    border: 2px solid black;
+}
+
+div.casioHeader{
+    border-radius: 5px;
+    
+   margin-top: 0.5rem;
+    background: #514e5f;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    height: 13em;
+}
+input.casioInput{
+    margin-top: 5px;
+    margin-left: 25px;
+    width: 400px;
+    height: 100px;
+    font-size: 40px;
+    direction: rtl;
+    
+}
+
+div.logoModel{
+
+    margin-top: 1rem;
+    margin-left: 2em;
+    margin-right: 2em;
+    justify-content: space-between;
+    display: flex;
+    
+}
+.casioLogo{
+    
+    color: white;
+font-size: 20px;
+
+}
+.casioModel{
+    margin-left: 2em;
+    color: white;
+font-size: 16px;
+
+
+}
+
+div.casioBody{
+    margin-left: 10px;
+    margin-top: 2em;
+    padding: 20px;
+    /* border-top: 2px solid black; */
+    justify-content: center;
+    
+}
+
+button.button{
+    font-size: 15px;
+    width: 60px;
+    height: 40px;
+    margin-left: 11px;
+    margin-right: 11px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+    
+    
+}
+
+button.esittir{
+    width: 145px;
+}
+
+
+
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
